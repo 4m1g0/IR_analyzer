@@ -44,7 +44,7 @@ class Draw(multiprocessing.Process):
         
     def run(self):
         pyplot.plot(self.x, self.y)
-        pyplot.ylim(-1.5,1.5)
+        pyplot.ylim(-0.5,1.5)
         pyplot.show()
         #scatterplot(self.x, self.y)
         
