@@ -1,6 +1,4 @@
 from matplotlib import pyplot
-from numpy import arange
-import bisect
 import serial
 from serial.tools import list_ports
 import sys
